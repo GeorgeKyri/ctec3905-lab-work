@@ -1,0 +1,41 @@
+body{
+  background: #B4D8E2;
+}
+nav {
+  display: flex;
+  background-color: #099;
+  flex-direction: column;
+  width: 15vw;
+  //float: right;
+  flex-shrink: 0;
+}
+
+nav a{
+  flex-direction: column;
+  background-color: yellow;
+  color: green;
+  padding: 0.25em;
+  margin: 0.5em;
+
+  transition: background-color 0.7s;
+}
+
+nav a:hover{
+  background-color: red;
+}
+
+header{
+  background-color: red;
+}
+
+section{
+  //width: 85vw;
+  background-color: green;
+}
+
+main{
+  display: flex;
+}
+header, section{
+  overflow: auto;
+}
